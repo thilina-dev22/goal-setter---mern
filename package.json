@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "node backend/server.js",
+    "start": "node init && node backend/server.js",
     "server": "nodemon backend/server.js"
   },
   "keywords": [],
@@ -13,7 +13,6 @@
   "dependencies": {
     "bcryptjs": "^3.0.2",
     "colors": "^1.4.0",
-    "dotenv": "^17.0.1",
     "express": "^5.1.0",
     "express-async-handler": "^1.2.0",
     "jsonwebtoken": "^9.0.2",
